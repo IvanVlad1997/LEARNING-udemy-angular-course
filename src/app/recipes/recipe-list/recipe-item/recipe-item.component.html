@@ -1,1 +1,19 @@
-<p>recipe-item works!</p>
+<a href="#" 
+    (click) = "onSelected()">
+    <ul class="list-group" >
+        <div class="row" >
+            <div class="col-xs-6" class="list-group-item">
+                    <h4 >{{reci.name}}</h4>
+                    <p >{{reci.description}}</p>
+            </div>
+            <div class="col-xs-6" class="list-group-item">
+                <span >
+                    <img [src]="reci.imagePath" [alt]="reci.name" class="img-responsive" style="max-height: 50px;">
+        
+                </span>
+            </div>
+           
+        </div>
+      </ul>
+ 
+</a>
